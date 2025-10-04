@@ -4,8 +4,8 @@ References and Acknowledgements
 
 **The release paper describing the code corresponding to dynesty 1.0 can be found**
 `here <https://github.com/joshspeagle/dynesty/tree/master/paper/dynesty.pdf>`_.
-Since recent dynesty versions have significant changes with respect to the paper, unless
-you use the 1.0 version, you must *also* cite dynesty code used through `zenodo <https://doi.org/10.5281/zenodo.3348367>`_
+Unless you use the 1.0 version, you should **also** cite dynesty code used
+through `zenodo <https://doi.org/10.5281/zenodo.3348367>`_
 
 
 A list of papers that you should cite can always be generated directly
@@ -20,7 +20,7 @@ This list will by default include the following papers:
 
 * Code:
   `Speagle (2020) <https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.3132S/abstract>`_
-  and `Koposov et al. (2022) <https://doi.org/10.5281/zenodo.3348367>`_
+  and `Koposov et al. (2025) <https://doi.org/10.5281/zenodo.3348367>`_
   
 * Nested Sampling:
   `Skilling (2004) <http://ui.adsabs.harvard.edu/abs/2004AIPC..735..395S>`_
