@@ -8,13 +8,13 @@ classes
 """
 from importlib.metadata import version, PackageNotFoundError
 
-from .dynesty import NestedSampler, DynamicNestedSampler
-from . import bounding
-from . import utils
-from . import pool
-
 try:
     __version__ = version("dynesty")
 except PackageNotFoundError:
     # package is not installed
     pass
+
+from .dynesty import NestedSampler, DynamicNestedSampler
+from . import bounding
+from . import utils
+from . import pool
