@@ -100,22 +100,22 @@ Changelog
     :align: center
 
 	    	    
-3.0.0 (2025-10-03)
+3.0.0 (2025-10-04)
 ------------------
 Major release
 
 This is major release with several infrastructural changes that will make future development of dynesty easier, as well as significant speedups. The release also deprecated some rarely used options.
 
 - Major refactor of the code that makes it easier to add new samplers.
-- You can now provide samplers as classes as arguments NestedSampler(sample=RWalkSampler(walks=44))
 - Major speedup of the uniform sampler when sampling in parallel
-- Convergence statistics are saved for each iteration that can help diagnose issues
+- You can now provide samplers as classes as arguments NestedSampler(sample=RWalkSampler(walks=44))
+- Convergence statistics are saved for each iteration that can help diagnose sampling issues
 - You can now save the function evaluation history for all function calls throughout the sampling, even when doing it in parallel
-- The Hamiltonian slice sampler was removed because of lack of proper testing and not being mantainable.
+- The Hamiltonian slice sampler was removed because of lack of proper testing and not being mantainable
 
 The repository has a demo notebook highlighting the main changes in 3.0.
 
-If you see any regression in 3.0, please report it.
+If you see any regressions in 3.0, please report them
 
 
 2.1.5 (2024-12-17)

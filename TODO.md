@@ -4,9 +4,6 @@ Here's rough todo
 
 * implelement a new sampler. Maybe 50% slice, 50%rwalk ?
 
-* Allow saving some information from the sampler into RunRecord ?
+* Implement sampler from emcee
 
-* Think of Sampler interface, do i really need seeds ?
-
-* what about generation of livepoints/axes by proposed_live not used by uniform sampler
-do i care about that ? probably not 
+* Allow reuse of all the function evaluations when running batches

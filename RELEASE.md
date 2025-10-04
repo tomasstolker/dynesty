@@ -3,8 +3,7 @@ This is an internal memo for things that need to be done for the release
 Essential steps for the release (order is important):
 
 * update the changelog.md and changelog in the docs
-* change the internal version number ( py/dynesty/_version.py )
-* git tag
+* git tag (that should correctly set all versions)
 * release on pypi and github (Note it may not be a good idea to make a release on github,
 as I believe that creates one more zenodo record )
 
