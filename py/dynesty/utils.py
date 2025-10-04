@@ -18,7 +18,7 @@ import pickle as pickle_module
 # To allow replacing of the pickler
 import numpy as np
 from scipy.special import logsumexp
-from ._version import __version__ as DYNESTY_VERSION
+from . import __version__ as DYNESTY_VERSION
 
 # Define SamplerHistoryItem here to avoid circular imports
 SamplerHistoryItem = namedtuple('SamplerHistoryItem', ['u', 'v', 'logl'])
